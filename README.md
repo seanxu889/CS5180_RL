@@ -13,7 +13,7 @@ After training 2000 episodes, the agent drove faster and more ﬂuently as befor
 ![image](https://github.com/seanxu889/CS5180_RL/blob/master/Demo/PPO.gif)
 
 
-However, sometimes the agent turned too fast with a serious skidding and almost rushed out of the track, even though it got back on the track by adjusting the steering and braking.
+However, sometimes the agent turned too fast with a serious skidding and almost rushed out of the track, even though it got back on the track by adjusting the steering and braking. We can observe that the car skids a whole circle in the U-turn, because it enters the U-turn in a very high speed without enough braking. That might be because the policy we learnt was stochastic and the agent might choose inappropriate actions.
 
 
 ![image](https://github.com/seanxu889/CS5180_RL/blob/master/Demo/PPO_skidding.gif)

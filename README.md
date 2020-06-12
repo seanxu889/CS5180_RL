@@ -1,4 +1,7 @@
 # CS5180 Reinforcement Learning
+
+*Image-based Path Planning Method in CarRacing Game
+
 Reinforcement Learning Project: Sequential Decision Making in CarRacing Game using Proximal Policy Optimization and Dataset Aggregation
 
 Proximal Policy Optimization (PPO):
